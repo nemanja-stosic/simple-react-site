@@ -1,11 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Oxygen&display=swap');
 
-:root {
+body {
+  margin: 0;
   font-family: 'Inter', sans-serif;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
 }
 
+main {
+  background-image: url('/public/react-icon-large.png');
+  background-repeat: no-repeat;
+  /*background position x and y */
+  background-position: right 10%;
+}

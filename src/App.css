@@ -1,11 +1,54 @@
-#root {
-  margin: 0 auto;
-  text-align: center;
+
+.nav-logo-text, .nav-title {
+  margin: 0;
+}
+
+.nav-logo-text {
+  /* to move h3 to right */
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.main-content {
+  background-color: #282D35;
+  padding: 20px;
+  height: 100vh;
+}
+
+.main-content h1 {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-content ul {
+  margin-top: 40px;
+  max-width: 400px;
+}
+
+.main-content ul li {
+  /* padding top and bottom*/
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.main-content ul li::marker {
+  /* could've used content to change li bullet to something else*/
+ /* content: '✝ '; */
+  color: #61DAFB;
+  font-size: 1.4rem;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 2em;
+  height: 30px;
+  margin-right: 7px;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
